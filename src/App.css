@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);/* This corresponds to Tailwind's bg-blue-400 */
+    border-radius: 0.5rem; 
+    padding : 10px;
+
+}
+.data{
+    background-color: pink;
+    margin:10px;
+    border-radius:6px;
+    padding : 5px;
+    border:2px solid;
+   
+
+}
